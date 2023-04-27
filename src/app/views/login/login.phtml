@@ -1,0 +1,9 @@
+<?php
+if ($msg) {
+    $this->response->redirect('dashbord'); //if login succesfull redirecting to dashbord
+} else {
+    $this->response->setContent("ERROR 403 ! Authentication Failed");
+    $this->response->send();
+    echo $this->tag->linkTo(["login", " LogIn", "class" => "btn btn-primary"]);
+    die;
+}

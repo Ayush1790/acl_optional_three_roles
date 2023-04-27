@@ -1,0 +1,14 @@
+[2023-04-26T08:28:50+00:00][info] <script>alert('o')</script><= injected script
+[2023-04-26T08:29:04+00:00][info] <script>alert('ao')</script><= injected script
+[2023-04-26T08:33:30+00:00][info] <script>A</script><= injected script
+[2023-04-26T08:34:47+00:00][info] <script>alert('hello')</script><= injected script
+[2023-04-26T08:34:54+00:00][info] <script>alert('lo')</script><= injected script
+[2023-04-26T08:35:54+00:00][info] <script>alert('o')</script><= injected script
+[2023-04-26T08:35:54+00:00][info] email is required<br>pswd is required
+[2023-04-26T08:36:26+00:00][info] name is required<br>email is required<br>pswd is required
+[2023-04-26T08:36:27+00:00][info] name is required<br>email is required<br>pswd is required
+[2023-04-26T08:36:27+00:00][info] name is required<br>email is required<br>pswd is required
+[2023-04-26T08:36:27+00:00][info] name is required<br>email is required<br>pswd is required
+[2023-04-26T08:36:27+00:00][info] name is required<br>email is required<br>pswd is required
+[2023-04-26T08:36:28+00:00][info] name is required<br>email is required<br>pswd is required
+[2023-04-26T08:37:24+00:00][info] <script>alert('ao')</script><= injected script

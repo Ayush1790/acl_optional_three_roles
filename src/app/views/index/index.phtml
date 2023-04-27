@@ -1,0 +1,10 @@
+<!-- home page -->
+<h1>Hello Welcome To Home Page</h1>
+<br>
+<?php
+if ($this->cookies->get('isLogin') == "1") {
+    echo $this->tag->linkTo(["logout", "LogOut", "class" => "btn btn-danger ms-2"]);
+} else {
+    echo $this->tag->linkTo(["signup", "Sign In", "class" => "btn btn-primary m-2"]);
+    echo $this->tag->linkTo(["login", "Log In", "class" => "btn btn-primary m-2"]);
+}
