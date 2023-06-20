@@ -60,7 +60,8 @@ class Listener extends Injectable
              * Add the roles
              */
             $acl->addRole('user');
-            $acl->addRole('guest');
+            $acl->addRole('admin');
+            $acl->addRole('accounting');
 
             /**
              * Add the Components
@@ -106,6 +107,7 @@ class Listener extends Injectable
             $acl->allow('*', 'login', '*');
             $acl->allow('*', 'signup', '*');
             $acl->allow('*', 'index', '*');
+            $acl->deny("*","dashboard","*");
 
             file_put_contents(
                 $aclFile,
